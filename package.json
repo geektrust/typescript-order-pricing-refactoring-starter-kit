@@ -1,0 +1,19 @@
+{
+  "name": "typescript-mocha-jest-interview-array-with-an-integer-starter-kit",
+  "version": "0.1.0",
+  "devDependencies": {
+    "@types/chai": "^5.2.2",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^24.0.14",
+    "chai": "^5.2.1",
+    "mocha": "^11.7.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "test": "mocha",
+    "init:jest": "node .gtconfig/setup-jest.js",
+    "init:mocha": "node .gtconfig/setup-mocha.js"
+  },
+  "license": "MIT"
+}
